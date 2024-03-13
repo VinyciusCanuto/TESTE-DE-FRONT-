@@ -1,0 +1,267 @@
+:root{
+    --indigo: hsl(230, 93%, 82%);
+    --white: hsl(240, 20, 98);
+    --black: hsl(0, 0%, 0%);
+    --slate: hsl(215, 20%, 65%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    width: 100vw;
+}
+#profile-img{
+    border-radius: 100%;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    font-size: 25px;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    font-weight: 400;
+}
+.nome{
+    font-weight: 500;
+    font-size: 35px;
+}
+.container{
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    
+}
+#profile-img{
+    width: 350px;
+    height: 350px;
+}
+#description{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--slate);
+}
+#name{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--black);
+}
+#button-box{
+    display: flex;
+    padding: 10px;
+    gap: 18px;
+}
+#button-box button{
+    background: none ;
+    border-radius: 20px ;
+    border: solid 2px var(--indigo);
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+#button-box button:hover{
+    background-color: var(--indigo);
+}
+#info{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+#followers{
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+#follow-img{
+    width: 266px;
+    height: 266px;
+    border-radius: 4px;
+}
+#caixa-seguidor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#caixa-tudo{
+    display: flex;
+    justify-content: center;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bar{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.hr{
+    width: 40px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: var(--indigo);
+}
+.more{
+    display: flex;
+    justify-content: center;
+}
+.more button{
+    background: none;
+    align-items: center;
+    border-radius: 30px ;
+    border: solid 2px var(--indigo);
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 227px;
+    height: 45px;
+    font-size: 18px;
+}
+.more button:hover{
+    background-color: var(--indigo);
+}
+.rights{
+    display: flex;
+    justify-content: space-evenly;
+}
+.rights p{
+    font-weight: bolder;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+}
+
+.img{
+    width: 480px;
+    height: 476px;
+    margin-right: px;
+    margin-top: 274px;
+
+}
+.login{
+    background-color: white;
+    width: 480px;
+    height: 476px; 
+    margin-top: 294px;
+    margin-left: 194px;
+}
+input{
+
+    width: 350px;
+    height: 48px;
+    margin-left: 40px;
+    margin-top: 24px;
+    background: #f9f9fb;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;    
+    
+}
+button{
+    width: 400px;
+    height: 48px;
+    margin-left: 40px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+.n{
+    background-image: url(img/Lock.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    padding-left: 40px;
+    
+}
+
+
+
+
+.bt{
+    background-color: var(--indigo);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    width: 350px;
+}
+.h3{
+    font-family: 'Roboto';
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.bt2{
+    width: 200px;
+    height: 48px;
+    background-color: #7180B9;
+    /* display: ; */
+    border: none;
+    margin-left: 80px;
+    border-radius: 5px;
+    background-image: url(img/GithubLogo.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;font-family: 'Roboto';
+    font-size: 16px;
+}
+.nb{
+    display: flex;
+    border: none;
+}
+.lin{
+    width: 124px;
+}
+button:hover{
+    background-color: #9dace6;
+}
+input:hover{
+    background: rgba(135, 152, 220, 0.32);
+}
+.g1{
+    color: white;
+    font-size: 50px;
+    margin-left: 20px;
+    font-family: 'Roboto';
+    position: absolute;
+}
+
+
+.mensage{
+    height: 120px;
+}
